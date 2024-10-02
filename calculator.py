@@ -1,4 +1,4 @@
-income = float(input("Entre com os rendimentos "))
+income = float(input("Write the income: "))
 
 if income < 85528:
     tax = income * 0.18 - 556.02
@@ -7,7 +7,6 @@ else:
 
 tax = round(tax, 0)
 
-print(
- "A taxa é:", tax, "thalers")
+print("The tax is:", tax, "thalers")
 
 
